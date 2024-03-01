@@ -17,9 +17,9 @@ public class log {
 	public void setup() {
 	
 
-    System.setProperty("webdriver.gecko.driver", "/Users/vishal.rane/Desktop/driver/geckodriver");
+    System.setProperty("webdriver.chrome.driver", "/Users/vishal.rane/Desktop/driver/chromedriver");
 	
-     d = new FirefoxDriver();
+     d = new ChromeDriver();
 	   
 	   
 	
